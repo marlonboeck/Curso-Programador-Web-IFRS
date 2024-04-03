@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrututa da tabela</title>
+</head>
+<body>
+    <section>
+        <table border="1"> <!-- A tag "border" atualmente é utilizada diretamente no CSS, foi colocada no HTML apenas como exemplo. -->
+            <tr> 
+                <td>Coluna 1, Linha 1</td> 
+                <td rowspan="2">Coluna 2</td>
+            </tr> 
+            <tr>
+                <td>Coluna 1, Linha 2</td>
+            </tr>
+            <tr>
+                <td colspan="2">Coluna 3</td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
+
+<!--
+    Parâmetros das tabelas no HTML (a maioria caiu em desuso no HMTL5, 
+    são usados no CSS) mas estes ainda são usados dentro do HTML:
+
+    <td>
+    - colspan: permite que uma célula se estenda por várias colunas (horizontal)
+    - rowspan: permite que uma célula se estenda por várias linhas (vertical)
+
+-->
