@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula Formulário</title>
+</head>
+<body>
+    <header><h1>Novos Campos - Curso de HTML</h1></header>
+    <nav></nav>
+    <section>
+        <!-- Campo E-mail -->
+        <form method="post" action="">
+            <input type="email" name="email">
+        </form><br><br>
+ 
+        <!-- Campo Data -->
+        <form method="post" action="">
+            <input type="date" name="data">
+        </form><br><br>
+ 
+        <!-- Campo Faixa "range" -->        
+        <form method="post" action="">
+            <input type="range" name="faixa">
+        </form><br><br>
+ 
+        <!-- Campo cor -->
+        <form method="post" action="">
+            <input type="color" name="cor">
+        </form><br><br>
+ 
+        <!-- Campo Lista -->
+        <form method="post" action="">
+            <input list="cursos" name="curso">
+                <datalist id="cursos">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                </datalist>
+        </form>
+    </section>    
+</body>
+</html>
