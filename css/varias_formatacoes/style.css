@@ -1,0 +1,15 @@
+p{
+    font-size: 12px;
+}
+
+.classe1 {
+    font-style: italic;
+}
+
+#id1 {
+    font-family: Arial;
+}
+
+p.classe1 {
+    color: red;
+}
